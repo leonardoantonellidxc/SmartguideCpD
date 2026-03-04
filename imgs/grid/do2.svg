@@ -1,0 +1,46 @@
+<svg width="328" height="122" viewBox="0 0 328 122" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1666_53276)">
+<rect width="328" height="122" rx="8" fill="white"/>
+<g clip-path="url(#clip1_1666_53276)">
+<rect width="328" height="122" fill="#E2E8F0"/>
+<g clip-path="url(#clip2_1666_53276)">
+<g clip-path="url(#clip3_1666_53276)">
+<rect x="8.20117" width="19.9533" height="218.667" fill="#BFDFFF"/>
+<rect x="34.7129" width="19.9533" height="218.667" fill="#BFDFFF"/>
+<rect x="61.2285" width="19.9533" height="218.667" fill="#BFDFFF"/>
+<rect x="87.7402" width="19.9533" height="218.667" fill="#BFDFFF"/>
+<rect x="114.254" width="19.9533" height="218.667" fill="#BFDFFF"/>
+<rect x="140.768" width="19.9533" height="218.667" fill="#BFDFFF"/>
+<rect x="167.281" width="19.9533" height="218.667" fill="#BFDFFF"/>
+<rect x="193.793" width="19.9533" height="218.667" fill="#BFDFFF"/>
+<rect x="220.307" width="19.9533" height="218.667" fill="#BFDFFF"/>
+<rect x="246.82" width="19.9533" height="218.667" fill="#BFDFFF"/>
+<rect x="273.334" width="19.9533" height="218.667" fill="#BFDFFF"/>
+<rect x="299.848" width="19.9533" height="218.667" fill="#BFDFFF"/>
+</g>
+</g>
+<rect x="8" y="12" width="73" height="27" rx="2" fill="#8098B3"/>
+<rect x="88" y="12" width="73" height="27" rx="2" fill="#8098B3"/>
+<rect x="8" y="47" width="73" height="27" rx="2" fill="#8098B3"/>
+<rect x="88" y="47" width="73" height="27" rx="2" fill="#8098B3"/>
+<rect x="167" y="47" width="73" height="27" rx="2" fill="#8098B3"/>
+<rect x="247" y="47" width="73" height="27" rx="2" fill="#8098B3"/>
+<rect x="8" y="82" width="73" height="27" rx="2" fill="#8098B3"/>
+</g>
+</g>
+<rect x="0.5" y="0.5" width="327" height="121" rx="7.5" stroke="black"/>
+<defs>
+<clipPath id="clip0_1666_53276">
+<rect width="328" height="122" rx="8" fill="white"/>
+</clipPath>
+<clipPath id="clip1_1666_53276">
+<rect width="328" height="122" fill="white"/>
+</clipPath>
+<clipPath id="clip2_1666_53276">
+<rect width="328" height="218.667" fill="white"/>
+</clipPath>
+<clipPath id="clip3_1666_53276">
+<rect width="328" height="218.667" fill="white"/>
+</clipPath>
+</defs>
+</svg>

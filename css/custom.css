@@ -1,0 +1,876 @@
+/* REBUILD !!!! */
+:root {
+
+  --bs-gradient: linear-gradient(1deg, rgba(59, 188, 172, 0.11) 0.89%, rgba(88, 169, 197, 0.35) 50.74%, rgba(1, 82, 163, 0.3) 99.17%);
+
+}
+
+p {
+  line-height: 24px;
+}
+
+/* Fonts */
+body {
+  line-height: 22px;
+}
+
+/* 14px  */
+.body-sm {
+  line-height: 20px;
+}
+
+p {
+  font-size: 18px;
+}
+
+/* Colors*/
+.bg-gray {
+  background-color: var(--bs-gray-100);
+}
+
+.bg-gradients {
+  background: var(--bs-gradient);
+  border: 1px solid #E2E8F0;
+}
+
+.navbar-brand {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-size: 1rem;
+}
+
+.navbar .navbar-toggler {
+  top: 0.25rem;
+  left: 1rem;
+}
+
+.sidebar.show {
+  display: block;
+}
+
+#main-content {
+  transition: margin 0.3s ease-in-out;
+}
+
+@media (max-width: 991px) {
+  .header {
+    background-color: #fff;
+  }
+}
+
+.header-middle {
+  border-bottom: none;
+}
+
+@media (min-width: 992px) {
+  .header-middle {
+    border-bottom: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+  }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .sidebar.show+#main-content {
+    margin-top: 200px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .sidebar.show+#main-content {
+    margin-top: 180px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .sidebar.show+#main-content {
+    margin-top: 160px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .sidebar {
+    display: block;
+  }
+
+  #sidebarToggle {
+    display: none;
+  }
+}
+
+/* Transition for sidebar slide down */
+.sidebar {
+  transition: all 0.3s ease-in-out;
+}
+
+.sticky-top {
+  z-index: 1030;
+}
+
+@media (min-width: 992px) {
+  .sticky-top-sidebar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 221px;
+    max-height: calc(100vh - 6rem);
+    /* Limita l'altezza massima alla finestra */
+    overflow-y: auto;
+    padding: 16px;
+  }
+}
+
+.gradient {
+  background: linear-gradient(1deg,
+      rgba(59, 188, 172, 0.11) 0.89%,
+      rgba(88, 169, 197, 0.35) 50.74%,
+      rgba(1, 82, 163, 0.3) 99.17%);
+}
+
+.neutral {
+  background: var(--Neutral-100, #f1f5f9);
+}
+
+
+
+.bg-lightblu {
+  background-color: var(--bs-primary10);
+}
+
+.c-neutral-500 {
+  color: var(--bs-dark-border-subtle);
+}
+
+.bg-neutral-500 {
+  background-color: var(--bs-light-bg-subtle);
+}
+
+.logoimg {
+  height: 68.84px;
+}
+
+.immaginitab {
+  width: 238px;
+}
+
+.bg-hero-green {
+  background-color: #DCF1F1;
+}
+
+.square {
+  height: 40px;
+  width: 40px;
+}
+
+.quadrato {
+  color: #FFFFFF;
+  height: 140px;
+  width: 140px;
+}
+
+table>tbody>tr>td:first-child {
+  white-space: nowrap;
+}
+
+.tablefixed {
+  table-layout: fixed;
+}
+
+.force-focus {
+  box-shadow: inset 0 0 0 2px var(--bs-orange) !important;
+  outline: 4px solid var(--bs-primary30) !important;
+}
+
+.colordont {
+  color: #94C4F5;
+}
+
+.colordont2 {
+  color: var(--bs-primary95)
+}
+
+
+#table-roboto tbody tr td:last-child {
+  font-family: 'Roboto Mono';
+}
+
+.interlinea {
+  line-height: 90%;
+}
+
+.letterspacing {
+  letter-spacing: 0.3em;
+}
+
+/**
+ * Table. 
+*/
+
+
+.pagination .page-link {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 600;
+}
+
+.bgcode {
+  background-color: #003366;
+}
+
+.titlepage {
+  color: #003366;
+}
+
+.padding-end-0 {
+  padding-right: 0px;
+}
+
+.bggrigio {
+  background-color: #F3F3F3;
+}
+
+.text-grigio {
+  color: #64748B;
+}
+
+.borderimg {
+  border-color: #E2E8F0;
+}
+
+.content-container {
+  width: 450px;
+  max-width: 500px;
+
+
+}
+
+ul li {
+  font-size: 18px;
+}
+
+ol li {
+  font-size: 18px;
+}
+
+
+@media only screen and (max-width: 480px) {
+  #typeSelector {
+    padding-top: 2px;
+  }
+
+  #sizeSelector {
+    padding-top: 2px;
+  }
+}
+
+/* GESTIONE POPOVER */
+
+.bs-popover-auto {
+  font-size: 16px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: none;
+}
+
+.bs-popover-auto .popover-header {
+  background-color: #fff;
+  font-size: 18px;
+  border-bottom: none;
+}
+
+.avatar-container {
+  display: flex;
+  gap: 10px;
+}
+
+.avatar img {
+  max-width: 100%;
+}
+
+/* OFFCANVAS SIDEBAR MENU */
+
+.header-offcanvas {
+  width: 100%;
+  padding: 16px;
+  border-radius: 8px 8px 0 0;
+}
+
+@media (max-width: 991.98px) {
+  .sidebar-wrapper {
+    display: none;
+  }
+}
+
+.offcanvas-body {
+  border-radius: 0;
+  color: #071122;
+  padding: 16px;
+  background-color: #fff;
+}
+
+.offcanvas-body ul.sidebar-list {
+  color: #0066CC;
+  background-color: transparent;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.offcanvas-body > ul.sidebar-list > li > a, .offcanvas-body > ul.sidebar-list > li > ul.sidebar-list li {
+  border-left: 1px solid #CBD5E1;
+}
+
+.offcanvas-body ul.sidebar-list li {
+  font-size: 18px;
+}
+
+.offcanvas-body ul.sidebar-list li .list-link {
+  display: block;
+  padding: 4px 0 4px 12px;
+}
+
+.offcanvas-body ul.sidebar-list .list-link.active {
+  color: #003366;
+  border-left: 3px solid #0066CC;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.offcanvas-body ul.sidebar-list .list-link.active .list-item{
+  background-color:#F2F7FC;
+  color: #0066CC;
+}
+
+.offcanvas-body ul.sidebar-list li .list-link .list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 8px 12px;
+  border-radius: 4px 0 0 4px;
+  color: #004D99;
+  transition: all .3s;
+}
+
+.offcanvas-body ul.sidebar-list .list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 8px 12px;
+  border-radius: 4px 0 0 4px;
+  color: #004D99;
+  transition: all .3s;
+}
+
+.offcanvas-body ul.sidebar-list .list-dropdown .sidebar-list {
+  padding: 16px 0 16px 24px;
+}
+
+/* TOOLTIP */
+.tooltip.bs-tooltip-auto {
+  opacity: 1 !important;
+}
+
+.tooltip.bs-tooltip-auto[data-popper-placement="right"] .tooltip-arrow::before {
+  border-right-color: #003366 !important;
+}
+
+.tooltip.bs-tooltip-auto[data-popper-placement="left"] .tooltip-arrow::before {
+  border-left-color: #003366 !important;
+}
+
+.tooltip.bs-tooltip-auto[data-popper-placement="top"] .tooltip-arrow::before {
+  border-top-color: #003366 !important;
+}
+
+.tooltip.bs-tooltip-auto[data-popper-placement="bottom"] .tooltip-arrow::before {
+  border-bottom-color: #003366 !important;
+}
+
+.tooltip.bs-tooltip-auto .tooltip-inner {
+  background-color: #003366;
+  opacity: 1 !important;
+  padding:12px !important;
+}
+
+/* Checkbox gestione padding right nelle tabelle */
+table .toggle > label, .radio > label, .checkbox > label {
+  padding-right: 0;
+}
+
+/* ICONS */
+.example-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.example-wrapper {
+  flex: 0 1 16.66666%;
+  padding: 8px;
+}
+.example-icon {
+  padding: 16px 8px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.example-icon .example-set {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 16px;
+  border-radius: 8px;
+  border: 2px dashed var(--bs-primary);
+  margin: 0 auto;
+}
+.example-icon .example-set .icon {
+  margin: 0 8px;
+}
+.example-icon .example-label {
+  padding: 8px 0 0 0;
+}
+.icons-help .example-svg {
+  position: absolute;
+  left: -100000px;
+  opacity: 0;
+}
+
+#tabellaicone .icon {
+  --bs-icon-fill: #003366;
+  fill: #003366;
+}
+
+.buttonhover{
+  --bs-btn-bg: var(--bs-btn-hover-bg) !important;
+  background-color: var(--bs-btn-bg) !important;
+}
+.buttonactive{
+  --bs-btn-bg: var(--bs-btn-active-bg) !important;
+    background-color: var(--bs-btn-bg) !important;
+} 
+
+/* HEADER BOTTOM — stile “tab/pill” come nello screenshot */
+.header-bottom .nav-menu .nav-link{
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 18px;
+  border-radius: 8px;
+  font-weight: 600;
+  color: #17324d;          /* testo blu scuro */
+  text-decoration: none;
+}
+
+/* Hover (senza diventare sottolineato) */
+.header-bottom .nav-menu .nav-link:hover{
+  background: rgba(0,102,204,.08);
+  text-decoration: none;
+}
+
+/* Stato attivo: pill azzurra */
+.header-bottom .nav-menu .nav-link.active,
+.header-bottom .nav-menu .nav-item.active > .nav-link{
+  background: rgba(0,102,204,.14);  /* azzurrino */
+  color: #0066cc;
+}
+
+/* (opzionale) elimina eventuale underline/effetti bootstrap */
+.header-bottom .nav-menu .nav-link:focus{
+  box-shadow: none;
+}
+/* link navbar */
+.header-bottom .nav-menu .nav-link{
+  display: inline-block;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: 600;
+  color: #0066cc;
+  border-bottom: none;
+}
+
+/* hover */
+.header-bottom .nav-menu .nav-link:hover{
+  background: rgba(0,102,204,.08);
+  text-decoration: none;
+}
+
+/* stato attivo */
+.header-bottom .nav-menu .nav-item.active .nav-link{
+  background: rgba(0,102,204,.15);
+  color: #0066cc;
+}
+
+/* elimina linea bootstrap */
+.header-bottom .navbar-nav .nav-link{
+  border-bottom: none !important;
+}
+/* HEADER BOTTOM: stile pill come screenshot */
+.header-bottom .navbar .navbar-nav{
+  gap: 10px;
+}
+
+.header-bottom .navbar .navbar-nav .nav-link{
+  display: inline-flex !important;
+  align-items: center !important;
+  padding: 10px 18px !important;
+  border-radius: 8px !important;
+
+  color: #0066cc !important;
+  background: transparent !important;
+
+  border-bottom: 0 !important;
+  text-decoration: none !important;
+}
+
+/* toglie underline che arriva da navigation.scss */
+.header-bottom .navbar .navbar-nav .nav-link:hover{
+  text-decoration: none !important;
+  background: rgba(0,102,204,.08) !important;
+}
+
+/* stato attivo: pill azzurra */
+.header-bottom .navbar .navbar-nav .nav-link.active,
+.header-bottom .navbar .navbar-nav .nav-item.active > .nav-link{
+  background: rgba(0,102,204,.14) !important;
+  color: #0066cc !important;
+  text-decoration: none !important;
+}
+/* HEADER BOTTOM: menu a pill */
+.header-bottom .navbar .navbar-nav{
+  display: flex !important;
+  gap: 10px !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+}
+
+.header-bottom .navbar .navbar-nav .nav-link{
+  display: inline-flex !important;
+  align-items: center !important;
+  padding: 10px 18px !important;
+  border-radius: 8px !important;
+
+  color: #0066cc !important;
+  background: transparent !important;
+
+  border-bottom: 0 !important;
+  text-decoration: none !important;
+}
+
+/* hover */
+.header-bottom .navbar .navbar-nav .nav-link:hover{
+  background: rgba(0,102,204,.08) !important;
+  text-decoration: none !important;
+}
+
+/* stato attivo (pill azzurra) */
+.header-bottom .navbar .navbar-nav .nav-link.active,
+.header-bottom .navbar .navbar-nav .nav-item.active > .nav-link{
+  background: rgba(0,102,204,.14) !important;
+}
+
+/* =========================================================
+   HEADER BOTTOM — Mega menu look (come mock)
+   ========================================================= */
+
+/* base area */
+.header-bottom{
+  background: #fff;
+  border-bottom: 1px solid rgba(0,0,0,.08);
+}
+
+/* spazio tra le voci */
+.header-bottom .navbar-nav{
+  gap: 16px; /* distanza tra pill */
+  align-items: center;
+}
+
+/* link base */
+.header-bottom .navbar-nav .nav-link{
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border-radius: 10px;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1;
+
+  color: #0b5ed7;           /* blu link */
+  background: transparent;
+
+  border: 0;
+  text-decoration: none;
+}
+
+/* hover soft (senza underline) */
+.header-bottom .navbar-nav .nav-link:hover,
+.header-bottom .navbar-nav .nav-link:focus{
+  background: rgba(11,94,215,.08);
+  text-decoration: none;
+  outline: none;
+}
+
+/* stato attivo: pill scura */
+.header-bottom .navbar-nav .nav-link.active,
+.header-bottom .navbar-nav .nav-item.active > .nav-link{
+  background: #0b2f57;      /* blu scuro pill */
+  color: #fff;
+}
+
+/* focus visibile accessibile */
+.header-bottom .navbar-nav .nav-link:focus-visible{
+  box-shadow: 0 0 0 3px rgba(11,94,215,.25);
+}
+
+/* ---------------------------------------------------------
+   Chevron “V” per i dropdown (senza dipendere da icone)
+   --------------------------------------------------------- */
+.header-bottom .navbar-nav .dropdown-toggle::after{
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-left: 6px;
+
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(45deg);           /* V */
+  transition: transform .18s ease;
+  opacity: .9;
+
+  /* reset Bootstrap */
+  border-top: 0;
+  border-left: 0;
+  vertical-align: middle;
+}
+
+/* ruota quando aperto */
+.header-bottom .navbar-nav .show > .dropdown-toggle::after,
+.header-bottom .navbar-nav .dropdown-toggle[aria-expanded="true"]::after{
+  transform: rotate(-135deg);         /* ^ */
+}
+
+/* se nel markup hai già un'icona svg di freccia, nascondo l'after */
+.header-bottom .navbar-nav .dropdown-toggle svg,
+.header-bottom .navbar-nav .dropdown-toggle .dropdown-icon{
+  display: none;
+}
+
+/* ---------------------------------------------------------
+   Dropdown / Mega menu panel (stile pulito)
+   --------------------------------------------------------- */
+.header-bottom .dropdown-menu{
+  border-radius: 14px;
+  border: 1px solid rgba(0,0,0,.08);
+  box-shadow: 0 10px 30px rgba(0,0,0,.12);
+  padding: 12px;
+  margin-top: 10px;
+}
+
+/* link dentro dropdown */
+.header-bottom .dropdown-menu .dropdown-item{
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-weight: 600;
+}
+
+.header-bottom .dropdown-menu .dropdown-item:hover,
+.header-bottom .dropdown-menu .dropdown-item:focus{
+  background: rgba(11,94,215,.08);
+}
+
+/* ---------------------------------------------------------
+   Responsive: su mobile riduco un po’ il font/padding
+   --------------------------------------------------------- */
+@media (max-width: 991.98px){
+  .header-bottom .navbar-nav{
+    gap: 10px;
+  }
+  .header-bottom .navbar-nav .nav-link{
+    font-size: 16px;
+    padding: 10px 12px;
+    border-radius: 10px;
+  }
+}
+/* =========================================================
+   HEADER BOTTOM — stile come mock:
+   - link semplici
+   - solo ACTIVE = bottone rettangolare blu
+   ========================================================= */
+
+/* reset look "pill" su tutte le voci */
+.header-bottom .navbar .navbar-collapsable .navbar-nav li.nav-item > a.nav-link,
+.header-bottom .navbar .navbar-collapsable .navbar-nav li.nav-item > button.nav-link{
+  background: transparent !important;
+  border: 0 !important;
+  border-bottom: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+
+  padding: 10px 14px !important;
+  margin: 0 !important;
+
+  /* font come mock */
+  font-family: inherit !important;        /* usa il font del tema */
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0 !important;
+
+  color: #0b5ed7 !important;              /* blu link */
+  text-decoration: none !important;
+
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+}
+
+/* hover: solo leggero, senza pill */
+.header-bottom .navbar .navbar-collapsable .navbar-nav li.nav-item > a.nav-link:hover,
+.header-bottom .navbar .navbar-collapsable .navbar-nav li.nav-item > button.nav-link:hover{
+  background: transparent !important;
+  text-decoration: underline !important;  /* se nel mock ti piace */
+}
+
+/* STATO ATTIVO: rettangolo blu scuro */
+.header-bottom .navbar .navbar-collapsable .navbar-nav li.nav-item.active > a.nav-link,
+.header-bottom .navbar .navbar-collapsable .navbar-nav li.nav-item.active > button.nav-link,
+.header-bottom .navbar .navbar-collapsable .navbar-nav a.nav-link.active,
+.header-bottom .navbar .navbar-collapsable .navbar-nav button.nav-link.active{
+  background: #083b66 !important;     /* blu scuro mock */
+  color: #fff !important;
+
+  border-radius: 6px !important;      /* rettangolo leggermente stondato */
+  padding: 12px 16px !important;
+  text-decoration: none !important;
+}
+
+/* focus accessibile */
+.header-bottom .navbar .navbar-collapsable .navbar-nav a.nav-link:focus-visible,
+.header-bottom .navbar .navbar-collapsable .navbar-nav button.nav-link:focus-visible{
+  outline: none !important;
+  box-shadow: 0 0 0 3px rgba(11,94,215,.25) !important;
+}
+
+/* =========================================================
+   Chevron "V" per dropdown (senza pill)
+   ========================================================= */
+
+/* nascondi eventuali icone freccia già nel markup */
+.header-bottom .navbar .navbar-collapsable .navbar-nav .dropdown-icon,
+.header-bottom .navbar .navbar-collapsable .navbar-nav a.nav-link svg,
+.header-bottom .navbar .navbar-collapsable .navbar-nav button.nav-link svg{
+  display: none !important;
+}
+
+/* chevron via ::after SOLO per dropdown/has-megamenu */
+.header-bottom .navbar .navbar-collapsable .navbar-nav .nav-item.dropdown > a.nav-link::after,
+.header-bottom .navbar .navbar-collapsable .navbar-nav .nav-item.dropdown > button.nav-link::after,
+.header-bottom .navbar .navbar-collapsable .navbar-nav .nav-item.has-megamenu > a.nav-link::after,
+.header-bottom .navbar .navbar-collapsable .navbar-nav .nav-item.has-megamenu > button.nav-link::after{
+  content: "" !important;
+  display: inline-block !important;
+  width: 10px !important;
+  height: 10px !important;
+  margin-left: 6px !important;
+  border-right: 2px solid currentColor !important;
+  border-bottom: 2px solid currentColor !important;
+  transform: rotate(45deg) !important; /* V */
+  transition: transform .18s ease !important;
+}
+
+/* ruota quando aperto */
+.header-bottom .navbar .navbar-collapsable .navbar-nav .nav-item.show > a.nav-link::after,
+.header-bottom .navbar .navbar-collapsable .navbar-nav .nav-item.show > button.nav-link::after,
+.header-bottom .navbar .navbar-collapsable .navbar-nav a.nav-link[aria-expanded="true"]::after,
+.header-bottom .navbar .navbar-collapsable .navbar-nav button.nav-link[aria-expanded="true"]::after{
+  transform: rotate(-135deg) !important;
+}
+
+/* FIX mobile: niente padding che sposta il toggler */
+@media (max-width: 991.98px){
+  .header .header-middle .nav-right .navbar{
+    padding-left: 0 !important;
+  }
+
+  /* se c'è anche padding lato container */
+  .header .header-middle .nav-right{
+    padding-left: 0 !important;
+  }
+
+  /* allinea il burger a destra senza box “strano” */
+  .header .header-middle .nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}/* Burger: niente box blu, solo icona */
+.header .custom-navbar-toggler{
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  padding: 8px !important;
+  border-radius: 8px !important;
+}
+
+/* se c’è uno span wrapper che ha background */
+.header .custom-navbar-toggler > span{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent !important;
+}
+
+/* Burger header-bottom: niente box blu */
+.header-bottom .custom-navbar-toggler{
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  padding: 8px !important;
+  border-radius: 8px !important;
+}
+
+.header-bottom .custom-navbar-toggler .icon{
+  width: 28px;
+  height: 28px;
+  fill: #0b5ed7; /* blu come i link */
+}
+/* Mega menu: hover sotto-voci */
+.header-bottom .dropdown-menu .dropdown-item:hover,
+.header-bottom .dropdown-menu .dropdown-item:focus{
+  color: #212529 !important;   /* resta scuro */
+  background-color: #f5f7fa;   /* opzionale: hover leggero */
+}
+/* MOBILE: centra le voci del menu hamburger anche quando sono dropdown */
+@media (max-width: 991.98px){
+
+  /* forza il menu a comportarsi “centrato” */
+  .header-bottom .navbar-collapse .navbar-nav{
+    width: 100%;
+  }
+
+  /* link + button centrati */
+  .header-bottom .navbar-collapse .navbar-nav .nav-link,
+  .header-bottom .navbar-collapse .navbar-nav .dropdown-toggle{
+    width: 100%;
+    display: flex !important;
+    justify-content: center !important;
+    text-align: center !important;
+  }
+
+  /* quando il dropdown è aperto, non deve tornare a sinistra */
+  .header-bottom .navbar-collapse .navbar-nav .show > .dropdown-toggle{
+    justify-content: center !important;
+    text-align: center !important;
+  }
+
+  /* opzionale: centra anche le voci dentro il dropdown */
+  .header-bottom .dropdown-menu .dropdown-item{
+    text-align: center;
+  }
+}
+
+/* rimuove il border-bottom messo da theme.css sul tag header */
+header.header:not(.navbar-dark){
+  border-bottom: 0 !important;
+}

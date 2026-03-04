@@ -1,0 +1,39 @@
+ <svg width="328" height="122" viewBox="0 0 328 122" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_1666_53241)">
+                        <rect width="328" height="122" rx="8" fill="white"/>
+                        <g clip-path="url(#clip1_1666_53241)">
+                        <rect width="328" height="185" transform="translate(0 -13)" fill="#E2E8F0"/>
+                        <g clip-path="url(#clip2_1666_53241)">
+                        <g clip-path="url(#clip3_1666_53241)">
+                        <rect x="8.20117" y="-13" width="19.9533" height="218.667" fill="#BFDFFF"/>
+                        <rect x="34.7129" y="-13" width="19.9533" height="218.667" fill="#BFDFFF"/>
+                        <rect x="61.2285" y="-13" width="19.9533" height="218.667" fill="#BFDFFF"/>
+                        <rect x="87.7402" y="-13" width="19.9533" height="218.667" fill="#BFDFFF"/>
+                        <rect x="114.254" y="-13" width="19.9533" height="218.667" fill="#BFDFFF"/>
+                        <rect x="140.768" y="-13" width="19.9533" height="218.667" fill="#BFDFFF"/>
+                        <rect x="167.281" y="-13" width="19.9533" height="218.667" fill="#BFDFFF"/>
+                        <rect x="193.793" y="-13" width="19.9533" height="218.667" fill="#BFDFFF"/>
+                        <rect x="220.307" y="-13" width="19.9533" height="218.667" fill="#BFDFFF"/>
+                        <rect x="246.82" y="-13" width="19.9533" height="218.667" fill="#BFDFFF"/>
+                        <rect x="273.334" y="-13" width="19.9533" height="218.667" fill="#BFDFFF"/>
+                        <rect x="299.848" y="-13" width="19.9533" height="218.667" fill="#BFDFFF"/>
+                        </g>
+                        </g>
+                        </g>
+                        </g>
+                        <rect x="0.5" y="0.5" width="327" height="121" rx="7.5" stroke="black"/>
+                        <defs>
+                        <clipPath id="clip0_1666_53241">
+                        <rect width="328" height="122" rx="8" fill="white"/>
+                        </clipPath>
+                        <clipPath id="clip1_1666_53241">
+                        <rect width="328" height="185" fill="white" transform="translate(0 -13)"/>
+                        </clipPath>
+                        <clipPath id="clip2_1666_53241">
+                        <rect width="328" height="218.667" fill="white" transform="translate(0 -13)"/>
+                        </clipPath>
+                        <clipPath id="clip3_1666_53241">
+                        <rect width="328" height="218.667" fill="white" transform="translate(0 -13)"/>
+                        </clipPath>
+                        </defs>
+                        </svg>

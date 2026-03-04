@@ -1,0 +1,8 @@
+<svg width="140" height="140" viewBox="0 0 140 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="140" height="140" rx="4" fill="white"/>
+<mask id="path-2-inside-1_876_39724" fill="white">
+<path d="M0 106H40V140H4C1.79086 140 0 138.209 0 136V106Z"/>
+</mask>
+<path d="M0 106H40V140H4C1.79086 140 0 138.209 0 136V106Z" fill="white"/>
+<path d="M0 106H40H0ZM40 142H4C0.686292 142 -2 139.314 -2 136H2C2 137.105 2.89543 138 4 138H40V142ZM4 142C0.686292 142 -2 139.314 -2 136V106H2V136C2 137.105 2.89543 138 4 138V142ZM40 106V140V106Z" fill="#94C4F5" mask="url(#path-2-inside-1_876_39724)"/>
+</svg>

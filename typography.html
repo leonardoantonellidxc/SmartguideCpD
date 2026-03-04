@@ -1,0 +1,2695 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="utf-8" />
+  <title>MIT - Portale delle Linee Guida di UX e UI - Typography</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="shortcut icon" href="./favicon.ico" />
+
+  <!-- Bootstrap 5.3 -->
+  <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+
+  <!-- G36 Theme CSS -->
+  <link href="css/font.css" type="text/css" rel="stylesheet" />
+  <link href="css/form.css" type="text/css" rel="stylesheet" />
+  <link href="css/table.css" type="text/css" rel="stylesheet" />
+  <link href="css/theme.css" type="text/css" rel="stylesheet" />
+
+  <!-- Custom css-->
+  <link href="css/custom.css" type="text/css" rel="stylesheet" />
+
+  <!-- Fonts -->
+  <link href="css/font.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="skiplinks">
+    <a class="visually-hidden-focusable" href="#navbarNav">Vai al menu di navigazione principale</a>
+    <a class="visually-hidden-focusable" href="#asideNav">Vai al menu di navigazione secondario</a>
+    <a class="visually-hidden-focusable" href="#main-content">Vai al contenuto principale</a>
+    <a class="visually-hidden-focusable" href="#footer">Vai al piè di pagina</a>
+  </div>
+
+  <header class="header px-4 px-lg-9 sticky-top">
+    <div class="header-middle d-flex pt-lg-5 pb-lg-5">
+      <div class="nav-left">
+        <!-- Brand -->
+        <a class="navbar-brand" title="LOGO" href="index.html">
+          <span class="brand-logo"><svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="24" fill="#0066CC" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M11.5 18.75L24 10L36.5 18.75H11.5ZM12.75 32.5V31.25H35.25V32.5H12.75ZM12.75 33.75V35H35.25V33.75H12.75ZM24 11.5L32.5 17.5H15.5L24 11.5ZM16.5 30V20H15.25V30H16.5ZM21.5 20V30H20.25V20H21.5ZM27.75 30V20H26.5V30H27.75ZM32.75 20V30H31.5V20H32.75Z"
+                fill="white" />
+            </svg>
+          </span>
+
+          <div class="brand-text">
+            MIT - Web <br />
+            Identity Portal
+          </div>
+        </a>
+      </div>
+
+      <div class="nav-right">
+        <!-- Search Wrapper -->
+
+        <!-- Login 
+          <div class="login-wrapper">
+            <button class="btn btn-sm btn btn-primary">
+              <svg class="icon icon-sm" aria-hidden="true">
+                <use href="imgs/icon/sprite.svg#it-user"></use>
+              </svg>
+              <span class="mobile-hidden-lg"> Accedi al portale </span>
+            </button>
+          </div>-->
+
+        <div class="navbar navbar-expand-lg ps-3 ps-lg-0">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="header-bottom">
+      <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="nav-left">
+              <nav class="nav-menu pt-3 pt-lg-0" aria-label="">
+                <ul class="nav navbar-nav">
+                  <!-- Esempio Mega menu Container -->
+
+                  <li class="nav-item">
+                    <a href="index.html" class="nav-link">
+                      <span>Homepage</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="design-system.html" class="nav-link active">
+                      <span>Design System</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="accessibilità.html" class="nav-link">
+                      <span>Accessibilità</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container-fluid">
+    <div class="row px-lg-9">
+      <aside id="asideNav" class="sidebar-menu col-12 col-lg-3">
+        <div class="sidebar-wrapper sticky-top-sidebar my-6">
+          <div class="card sidebar bg-white">
+            <div class="card-header">
+              <div class="h6">Design system</div>
+            </div>
+            <!-- 
+              <a class="card-header-mobile" href="javascript:">
+               <span>
+                 Title
+               </span>
+                <svg class="icon icon-sm dropdown-icon" aria-hidden="true">
+                  <use xlink:href="imgs/icon/sprite.svg#it-arrow-up"></use>
+                </svg>
+              </a>
+              -->
+            <div class="sidebar-scroll">
+              <ul class="sidebar-list">
+                <li>
+                  <a class="list-link" href="design-system.html">
+                    <div class="list-item">
+                      <span> Welcome </span>
+                    </div>
+                  </a>
+                </li>
+                <li class="list-dropdown">
+                  <a class="list-link collapsed" href="#collapse1" role="button" data-bs-toggle="collapse"
+                    aria-expanded="false" aria-controls="collapse1">
+                    <div class="list-item">
+                      <span> Index </span>
+                      <svg class="icon icon-sm dropdown-icon" aria-hidden="true">
+                        <use xlink:href="imgs/icon/sprite.svg#it-expand"></use>
+                      </svg>
+                    </div>
+                  </a>
+                  <ul class="sidebar-list collapse" id="collapse1">
+                    <li>
+                      <a class="list-link" href="index-components.html">
+                        <div class="list-item">
+                          <span> Index components </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="index-section.html">
+                        <div class="list-item">
+                          <span> Index section </span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="list-dropdown">
+                  <a class="list-link active collapsed" href="#collapse" role="button" data-bs-toggle="collapse"
+                    aria-expanded="false" aria-controls="collapse">
+                    <div class="list-item">
+                      <span> Foundation </span>
+                      <svg class="icon icon-sm dropdown-icon" aria-hidden="true">
+                        <use xlink:href="imgs/icon/sprite.svg#it-expand"></use>
+                      </svg>
+                    </div>
+                  </a>
+                  <ul class="sidebar-list collapse" id="collapse">
+                    <li>
+                      <a class="list-link" href="border-radius.html">
+                        <div class="list-item">
+                          <span> Border radius </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="color-system.html">
+                        <div class="list-item">
+                          <span> Color system </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="grid.html">
+                        <div class="list-item">
+                          <span> Grid </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="icons.html">
+                        <div class="list-item">
+                          <span> Icons </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link active" href="typography.html">
+                        <div class="list-item">
+                          <span> Typography </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="shadows.html">
+                        <div class="list-item">
+                          <span> Shadows </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="spacing.html">
+                        <div class="list-item">
+                          <span> Spacing </span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="list-dropdown">
+                  <a class="list-link collapsed" href="#collapse2" role="button" data-bs-toggle="collapse"
+                    aria-expanded="false" aria-controls="collapse2">
+                    <div class="list-item">
+                      <span> Components </span>
+                      <svg class="icon icon-sm dropdown-icon" aria-hidden="true">
+                        <use xlink:href="imgs/icon/sprite.svg#it-expand"></use>
+                      </svg>
+                    </div>
+                  </a>
+                  <ul class="sidebar-list collapse" id="collapse2">
+                    <li>
+                      <a class="list-link" href="accordion.html">
+                        <div class="list-item">
+                          <span> Accordion </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="alert.html">
+                        <div class="list-item">
+                          <span> Alert </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="avatar.html">
+                        <div class="list-item">
+                          <span> Avatar </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="badge.html">
+                        <div class="list-item">
+                          <span> Badge </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="bottombar.html">
+                        <div class="list-item">
+                          <span> Bottom Bar </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="breadcrumbs.html">
+                        <div class="list-item">
+                          <span> Breadcrumbs </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="button.html">
+                        <div class="list-item">
+                          <span> Button </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="buttongroup.html">
+                        <div class="list-item">
+                          <span> Button Group </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="card.html">
+                        <div class="list-item">
+                          <span> Card </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="checkbox.html">
+                        <div class="list-item">
+                          <span> Checkbox </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="chips.html">
+                        <div class="list-item">
+                          <span> Chips </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="cookie.html">
+                        <div class="list-item">
+                          <span> Coockie banner </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="datepicker.html">
+                        <div class="list-item">
+                          <span> Data picker </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="dropdown.html">
+                        <div class="list-item">
+                          <span> Dropdown </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="floatingbutton.html">
+                        <div class="list-item">
+                          <span> Floating button </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="image-ratio.html">
+                        <div class="list-item">
+                          <span> image ratio </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="input.html">
+                        <div class="list-item">
+                          <span> Input & Text area </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="inputsearch.html">
+                        <div class="list-item">
+                          <span> Input search </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="loader.html">
+                        <div class="list-item">
+                          <span> Loader </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="modali.html">
+                        <div class="list-item">
+                          <span> Modali </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="pagination.html">
+                        <div class="list-item">
+                          <span> Pagination </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="popover.html">
+                        <div class="list-item">
+                          <span> Popover </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="radiobutton.html">
+                        <div class="list-item">
+                          <span> Radio button </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="scrollbar.html">
+                        <div class="list-item">
+                          <span> Scrollbar </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="select.html">
+                        <div class="list-item">
+                          <span> Select </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="slider.html">
+                        <div class="list-item">
+                          <span> Slider </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="stepper.html">
+                        <div class="list-item">
+                          <span> Stepper </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="switcher.html">
+                        <div class="list-item">
+                          <span> Switcher </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="table.html">
+                        <div class="list-item">
+                          <span> Table </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="tab.html">
+                        <div class="list-item">
+                          <span> Tab menù </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="timepicker.html">
+                        <div class="list-item">
+                          <span> Time picker </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="timeline.html">
+                        <div class="list-item">
+                          <span> Time line </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="toggle.html">
+                        <div class="list-item">
+                          <span> Toggle </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="tooltip.html">
+                        <div class="list-item">
+                          <span> Tooltip </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="uploader.html">
+                        <div class="list-item">
+                          <span> Uploader </span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="list-dropdown">
+                  <a class="list-link collapsed" href="#collapse4" role="button" data-bs-toggle="collapse"
+                    aria-expanded="false" aria-controls="collapse4">
+                    <div class="list-item">
+                      <span> Section </span>
+                      <svg class="icon icon-sm dropdown-icon" aria-hidden="true">
+                        <use xlink:href="imgs/icon/sprite.svg#it-expand"></use>
+                      </svg>
+                    </div>
+                  </a>
+                  <ul class="sidebar-list collapse" id="collapse4">
+                    <li>
+                      <a class="list-link" href="header.html">
+                        <div class="list-item">
+                          <span> Header</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="herobanner.html">
+                        <div class="list-item">
+                          <span> Hero banner </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="footer.html">
+                        <div class="list-item">
+                          <span> Footer </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="list-link" href="sidebar.html">
+                        <div class="list-item">
+                          <span> Sidebar navigation </span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <div class="col-12 col-lg-9" id="main-content">
+        <!-- hero-->
+        <div class="bg-hero-green p-6 rounded my-6">
+          <p class="h6 fw-semibold c-neutral-500 mb-1">Design System</p>
+          <h1 class="titlepage fw-bold h2">Typography</h1>
+        </div>
+
+        <p class="my-4">
+          L'applicazione delle famiglie tipografiche definite nel Design
+          system assicura che tutti i portali del Ministero dei Trasporti
+          siano tra loro coerenti, rafforzando l'identità visiva e migliorando
+          l'accessibilità e l'esperienza utente.
+        </p>
+        <!-- section 1-->
+        <div>
+          <h2 class="mb-4 fw-bold h5">Famiglie tipografiche</h2>
+          <p>
+            All’interno del Design system sono state utilizzate due famiglie
+            tipografiche specifiche per favorire la leggibilità e la
+            comprensione del testo:<strong>Titillium Web </strong> e
+            <strong> Roboto Mono</strong>.
+          </p>
+
+          <div class="list-table table-responsive table-sm table-even">
+            <table>
+              <thead>
+                <tr class="bg-primary10">
+                  <th>
+                    <div class="fw-bold">Famiglia tipografica</div>
+                  </th>
+                  <th>
+                    <div class="fw-bold">Utilizzo</div>
+                  </th>
+
+                  <th>
+                    <div class="fw-bold">Peso</div>
+                  </th>
+                  <th>
+                    <div class="fw-bold">Esempio</div>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="colf-form colf-check" data-label="Famiglia tipografica">
+                    <div class="fw-bold">Titillium Web</div>
+                  </td>
+
+                  <td data-label="Utilizzo">
+                    <div>Viene utilizzato per il testo</div>
+                  </td>
+
+                  <td data-label="Peso">
+                    <div>
+                      <ul>
+                        <li>Regular</li>
+                        <li>Semibold</li>
+                        <li>Underline</li>
+                        <li>Bold</li>
+                      </ul>
+                    </div>
+                  </td>
+
+                  <td data-label="Esempio">
+                    <div>The quick brown fox jumps over the lazy dog</div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="colf-form colf-check" data-label="Famiglia tipografica">
+                    <div class="fw-bold">Roboto mono</div>
+                  </td>
+                  <td data-label="Utilizzo">
+                    <div>
+                      Viene utilizzato solamente per i campi numerici non
+                      facenti parte di blocchi di testo
+                    </div>
+                  </td>
+                  <td data-label="Peso">
+                    <div>
+                      <ul>
+                        <li>Regular</li>
+
+                        <li>medium</li>
+                      </ul>
+                    </div>
+                  </td>
+                  <td data-label="Peso">
+                    <div>1234567890</div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- section 2-->
+          <div class="my-6">
+            <h5 class="mb-4 fw-bold">Suddivisone generale ed utilizzo</h5>
+            <p>
+              La tipografia all’interno del Design system è stata suddivisa in
+              6 macro categorie, ognuna con sotto-sezioni ed utilizzata per
+              diversi scopi:
+            </p>
+
+            <div class="list-table table-responsive table-sm table-even">
+              <table class="tablefixed">
+                <thead>
+                  <tr class="bg-primary10">
+                    <th>
+                      <div class="fw-bold">Categoria</div>
+                    </th>
+                    <th>
+                      <div class="fw-bold">Sotto-voci</div>
+                    </th>
+
+                    <th>
+                      <div class="fw-bold">Stili</div>
+                    </th>
+                    <th>
+                      <div class="fw-bold">Utilizzo</div>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td data-label="Categoria">
+                      <div class="fw-bold">Display</div>
+                    </td>
+
+                    <td data-label="Sotto-voci">
+                      <div>
+                        <ul>
+                          <li>Display 1</li>
+                          <li>Display 2</li>
+                        </ul>
+                      </div>
+                    </td>
+
+                    <td data-label="Stili">
+                      <div>Bold</div>
+                    </td>
+
+                    <td data-label="Utilizzo">
+                      <div>
+                        Vengono utilizzati per fare una dichiarazione visiva
+                        forte e catturare l'attenzione, non necessariamente
+                        sono legati alla struttura del contenuto
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td data-label="Categoria">
+                      <div class="fw-bold">Heading</div>
+                    </td>
+
+                    <td data-label="Sotto-voci">
+                      <div>
+                        <ul>
+                          <li>Heading 1</li>
+
+                          <li>Heading 3</li>
+                          <li>Heading 4</li>
+                          <li>Heading 5</li>
+                          <li>Heading 6</li>
+                        </ul>
+                      </div>
+                    </td>
+
+                    <td data-label="Stili">
+                      <div>
+                        <ul>
+                          <li>Regular</li>
+
+                          <li>Semibold</li>
+                          <li>Bold</li>
+                        </ul>
+                      </div>
+                    </td>
+
+                    <td data-label="Utilizzo">
+                      <div>
+                        Si tratta di un testo che funge da titolo o
+                        sottotitolo per sezioni di contenuto. Viene utilizzato
+                        per organizzare e strutturare il contenuto, rendendo
+                        più facile per gli utenti capire e navigare attraverso
+                        un documento o una pagina web. Gli heading aiutano la
+                        SEO migliorando la leggibilità e l'accessibilità di
+                        una pagina web
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td data-label="Categoria">
+                      <div class="fw-bold">Body</div>
+                    </td>
+
+                    <td data-label="Sotto-voci">
+                      <div></div>
+                    </td>
+
+                    <td data-label="Stili">
+                      <div>
+                        <ul>
+                          <li>Regular</li>
+                        </ul>
+                      </div>
+                    </td>
+
+                    <td data-label="Utilizzo">
+                      <div>
+                        Si riferisce al testo principale di un documento o di
+                        una pagina web. È dunque il testo che costituisce la
+                        maggior parte del contenuto scritto, progettato per
+                        essere altamente leggibile e consumato in grandi
+                        quantità
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td data-label="Categoria">
+                      <div class="fw-bold">Label</div>
+                    </td>
+
+                    <td data-label="Sotto-voci">
+                      <div></div>
+                    </td>
+
+                    <td data-label="Stili">
+                      <div>
+                        <ul>
+                          <li>Regular</li>
+                          <li>Semibold</li>
+                          <li>Bold</li>
+                        </ul>
+                      </div>
+                    </td>
+
+                    <td data-label="Utilizzo">
+                      <div>
+                        Viene utilizzato nella progettazione per descrivere o
+                        identificare un altro elemento, come un campo di
+                        input, una casella di selezione, un pulsante, ecc. In
+                        particolare, le label forniscono contesto e istruzioni
+                        all'utente su cosa fare o cosa rappresenta un
+                        determinato elemento dell'interfaccia
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td data-label="Categoria">
+                      <div class="fw-bold">Link</div>
+                    </td>
+
+                    <td data-label="Sotto-voci">
+                      <div></div>
+                    </td>
+
+                    <td data-label="Stili">
+                      <div>
+                        <ul>
+                          <li>Regular</li>
+                          <li>Semibold</li>
+                        </ul>
+                      </div>
+                    </td>
+
+                    <td data-label="Utilizzo">
+                      <div>
+                        I collegamenti ipertestuali sono elementi che
+                        permettono agli utenti di navigare tra le diverse
+                        pagine o sezioni di un sito web o verso altre risorse
+                        esterne. Sono solitamente rappresentati da testo o
+                        immagini cliccabili. I link dovrebbero avere testi
+                        descrittivi e significativi per indicare chiaramente
+                        dove porteranno l'utente ed essere visivamente
+                        distinti dal resto del testo tramite l’utilizzo di un
+                        colore differente dal body oppure con una
+                        sottolineatura
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td data-label="Categoria">
+                      <div class="fw-bold">Caption</div>
+                    </td>
+
+                    <td data-label="Sotto-voci">
+                      <div></div>
+                    </td>
+
+                    <td data-label="Stili">
+                      <div>
+                        <ul>
+                          <li>Regular</li>
+                          <li>Semibold</li>
+                        </ul>
+                      </div>
+                    </td>
+
+                    <td data-label="Utilizzo">
+                      <div>
+                        Si riferisce a una breve descrizione o etichetta che
+                        accompagna un elemento testuale o visivo fornendo
+                        informazioni o contesto aggiuntivo. Sono fondamentali
+                        in quanto aiutano gli utenti con disabilità visive a
+                        comprendere meglio il contenuto attraverso screen
+                        readers
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- section stato -->
+        <div>
+          <h3 class="mb-4 fw-bold h5">Stato</h3>
+          <div class="row gy-4" id="rowstato">
+            <div class="col-auto">
+              <a class="chip" data-id="all" data-bs-dismiss="chip">
+                <span> Tutto </span>
+              </a>
+            </div>
+            <div class="col-auto">
+              <a class="chip" data-id="base" data-bs-dismiss="chip">
+                <span> Base </span>
+              </a>
+            </div>
+            <div class="col-auto">
+              <a class="chip" data-id="primary" data-bs-dismiss="chip">
+                <span> Primary </span>
+              </a>
+            </div>
+            <div class="col-auto">
+              <a class="chip" data-id="secondary" data-bs-dismiss="chip">
+                <span> Secondary </span>
+              </a>
+            </div>
+            <div class="col-auto">
+              <a class="chip" data-id="accent" data-bs-dismiss="chip">
+                <span> Accent </span>
+              </a>
+            </div>
+            <div class="col-auto">
+              <a class="chip" data-id="disabled" data-bs-dismiss="chip">
+                <span> Disabled </span>
+              </a>
+            </div>
+            <div class="col-auto">
+              <a class="chip" data-id="success" data-bs-dismiss="chip">
+                <span> Success </span>
+              </a>
+            </div>
+            <div class="col-auto">
+              <a class="chip" data-id="warning" data-bs-dismiss="chip">
+                <span> Warning </span>
+              </a>
+            </div>
+            <div class="col-auto">
+              <a class="chip" data-id="danger" data-bs-dismiss="chip">
+                <span> Danger </span>
+              </a>
+            </div>
+          </div>
+          <p class="my-5">
+            Per garantire coerenza con gli altri elementi, i font presentano i
+            seguenti stati e colori:
+          </p>
+          <div class="shadow p-6">
+            <div id="base">
+              <h6 class="mb-4">Base</h6>
+              <div class="row gy-4">
+                <div class="col-auto">
+                  <div class="d-flex align-items-center">
+                    <svg class="me-3" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="16" cy="16" r="16" fill="#334155" />
+                    </svg>
+                    <div>Body</div>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <div class="d-flex align-items-center">
+                    <svg class="me-3" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="16" cy="16" r="16" fill="#003366" />
+                    </svg>
+
+                    <div>Title</div>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <div class="d-flex align-items-center">
+                    <svg class="me-3" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="16" cy="16" r="15.5" fill="white" stroke="#CBD5E1" />
+                    </svg>
+
+                    <div>Light</div>
+                  </div>
+                </div>
+              </div>
+              <hr />
+            </div>
+            <div id="primary">
+              <h6 class="mb-4">Primary</h6>
+              <div class="row gy-4">
+                <div class="col-auto">
+                  <div class="d-flex align-items-center">
+                    <svg class="me-3" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="16" cy="16" r="16" fill="#0066CC" />
+                    </svg>
+
+                    <div>Primary</div>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <div class="d-flex align-items-center">
+                    <svg class="me-3" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="16" cy="16" r="16" fill="#004D99" />
+                    </svg>
+
+                    <div>Hover</div>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <div class="d-flex align-items-center">
+                    <svg class="me-3" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="16" cy="16" r="16" fill="#003366" />
+                    </svg>
+
+                    <div>Active</div>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <div class="d-flex align-items-center">
+                    <svg class="me-3" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="16" cy="16" r="16" fill="#BFDFFF" />
+                    </svg>
+
+                    <div>Light</div>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <div class="d-flex align-items-center">
+                    <svg class="me-3" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="16" cy="16" r="15.5" fill="#F2F7FC" stroke="#CBD5E1" />
+                    </svg>
+
+                    <div>Lighter</div>
+                  </div>
+                </div>
+              </div>
+              <hr />
+            </div>
+            <div id="secondary">
+              <h6 class="mb-4">Secondary</h6>
+              <div class="row gy-4">
+                <div class="col-auto">
+                  <div class="d-flex align-items-center">
+                    <svg class="me-3" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="16" cy="16" r="16" fill="#2DD4BF" />
+                    </svg>
+
+                    <div>Secondary</div>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <div class="d-flex align-items-center">
+                    <svg class="me-3" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="16" cy="16" r="16" fill="#0F766E" />
+                    </svg>
+
+                    <div>Hover</div>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <div class="d-flex align-items-center">
+                    <svg class="me-3" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="16" cy="16" r="16" fill="#134E4A" />
+                    </svg>
+
+                    <div>Active</div>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <div class="d-flex align-items-center">
+                    <svg class="me-3" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="16" cy="16" r="16" fill="#0B2E2B" />
+                    </svg>
+
+                    <div>Dark</div>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <div class="d-flex align-items-center">
+                    <svg class="me-3" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="16" cy="16" r="16" fill="#99F6E4" />
+                    </svg>
+
+                    <div>Light</div>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <div class="d-flex align-items-center">
+                    <svg class="me-3" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="16" cy="16" r="16" fill="#CCFBF1" />
+                    </svg>
+
+                    <div>Lighter</div>
+                  </div>
+                </div>
+              </div>
+              <hr />
+            </div>
+            <div id="accent">
+              <h6 class="mb-4">Accent</h6>
+              <div class="row gy-4">
+                <div class="col-auto">
+                  <div class="d-flex align-items-center">
+                    <svg class="me-3" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="16" cy="16" r="16" fill="#FBBF15" />
+                    </svg>
+
+                    <div>Accent</div>
+                  </div>
+                </div>
+              </div>
+              <hr />
+            </div>
+            <div id="disabled">
+              <h6 class="mb-4">Disabled</h6>
+              <div class="row gy-4">
+                <div class="col-auto">
+                  <div class="d-flex align-items-center">
+                    <svg class="me-3" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="16" cy="16" r="16" fill="#94A3B8" />
+                    </svg>
+
+                    <div>Disabled</div>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <div class="d-flex align-items-center">
+                    <svg class="me-3" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="16" cy="16" r="16" fill="#CBD5E1" />
+                    </svg>
+
+                    <div>Light</div>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <div class="d-flex align-items-center">
+                    <svg class="me-3" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="16" cy="16" r="16" fill="#475569" />
+                    </svg>
+
+                    <div>Dark</div>
+                  </div>
+                </div>
+              </div>
+              <hr />
+            </div>
+
+            <div id="success">
+              <h6 class="mb-4">Success</h6>
+              <div class="row gy-4">
+                <div class="col-auto">
+                  <div class="d-flex align-items-center">
+                    <svg class="me-3" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="16" cy="16" r="16" fill="#1D7748" />
+                    </svg>
+
+                    <div>Success</div>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <div class="d-flex align-items-center">
+                    <svg class="me-3" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="16" cy="16" r="16" fill="#165A36" />
+                    </svg>
+
+                    <div>Hover</div>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <div class="d-flex align-items-center">
+                    <svg class="me-3" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="16" cy="16" r="16" fill="#0F3E25" />
+                    </svg>
+
+                    <div>Active</div>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <div class="d-flex align-items-center">
+                    <svg class="me-3" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="16" cy="16" r="16" fill="#E6F9EF" />
+                    </svg>
+
+                    <div>Light</div>
+                  </div>
+                </div>
+              </div>
+              <hr />
+            </div>
+            <div id="warning">
+              <h6 class="mb-4">Warning</h6>
+              <div class="row gy-4">
+                <div class="col-auto">
+                  <div class="d-flex align-items-center">
+                    <svg class="me-3" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="16" cy="16" r="16" fill="#995C00" />
+                    </svg>
+
+                    <div>Warning</div>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <div class="d-flex align-items-center">
+                    <svg class="me-3" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="16" cy="16" r="16" fill="#663D00" />
+                    </svg>
+
+                    <div>Hover</div>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <div class="d-flex align-items-center">
+                    <svg class="me-3" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="16" cy="16" r="16" fill="#422700" />
+                    </svg>
+
+                    <div>Active</div>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <div class="d-flex align-items-center">
+                    <svg class="me-3" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="16" cy="16" r="16" fill="#F6E4C8" />
+                    </svg>
+
+                    <div>Light</div>
+                  </div>
+                </div>
+              </div>
+              <hr />
+            </div>
+            <div id="danger">
+              <h6 class="mb-4">Danger</h6>
+              <div class="row gy-4">
+                <div class="col-auto">
+                  <div class="d-flex align-items-center">
+                    <svg class="me-3" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="16" cy="16" r="16" fill="#BD192E" />
+                    </svg>
+
+                    <div>Danger</div>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <div class="d-flex align-items-center">
+                    <svg class="me-3" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="16" cy="16" r="16" fill="#901323" />
+                    </svg>
+
+                    <div>Hover</div>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <div class="d-flex align-items-center">
+                    <svg class="me-3" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="16" cy="16" r="16" fill="#5F0C17" />
+                    </svg>
+
+                    <div>Active</div>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <div class="d-flex align-items-center">
+                    <svg class="me-3" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="16" cy="16" r="16" fill="#FCE8EB" />
+                    </svg>
+
+                    <div>Light</div>
+                  </div>
+                </div>
+              </div>
+              <hr />
+            </div>
+          </div>
+        </div>
+
+        <!-- section scarica -->
+        <div class="bg-gray my-6 p-6 rounded">
+          <h4 class="fw-bold mb-5 h5">Scarica i font</h4>
+          <div>
+            <div class="row gy-5">
+              <div class="col-12 col-lg-4">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <div class="card-title">
+                      <div id="titillium-web" class="text-icon h5">
+                        <span> Titillium Web </span>
+                      </div>
+                    </div>
+                    <a aria-labelledby="titillium-web" href="https://fonts.google.com/specimen/Titillium+Web"
+                      class="btn btn-bare btn-sm">
+                      <span aria-hidden="true">Vai alla risorsa </span>
+                      <span class="visually-hidden">Vai alla risorsa - Apertura nuova finestra
+                      </span>
+                      <svg class="icon icon-sm">
+                        <use href="imgs/icon/sprite.svg#it-external-link"></use>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-4">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <div class="card-title">
+                      <div id="roboto-mono" class="text-icon h5">
+                        <span aria-label="Apertura nuova finestra">
+                          Roboto
+                        </span>
+                      </div>
+                    </div>
+
+                    <a aria-labelledby="roboto-mono" href="https://fonts.google.com/specimen/Roboto+Mono"
+                      class="btn btn-bare btn-sm">
+                      <span aria-hidden="true">Vai alla risorsa </span>
+
+                      <span class="visually-hidden">Vai alla risorsa - Apertura nuova finestra
+                      </span>
+                      <svg class="icon icon-sm">
+                        <use href="imgs/icon/sprite.svg#it-external-link"></use>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- secttion tab -->
+
+        <!-- tab menu-->
+
+        <div class="py-5">
+          <ul class="nav nav-tabs light" id="myTab1" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#" data-bs-toggle="tab" data-bs-target="#titillium"
+                role="tab" aria-controls="titillium" aria-selected="true">
+                <span> Titillium Web</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-bs-toggle="tab" data-bs-target="#roboto" role="tab"
+                aria-controls="roboto" aria-selected="false">
+                <span> Roboto Mono </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- tab content-->
+        <div class="tab-content">
+          <!-- 1 tab-->
+          <div class="tab-pane fade show active" id="titillium" role="tabpanel" tabindex="0" aria-labelledby="titillium">
+            <h5 class="mb-4 fw-bold">Titillium Web</h5>
+
+            <!--1 tabella-->
+            <div class="badge badge-primary badge-lg">
+              <span> Display </span>
+            </div>
+            <div class="list-table table-responsive table-sm table-even my-6">
+              <table>
+                <thead>
+                  <tr>
+                    <th>
+                      <div class="fw-bold">Token</div>
+                    </th>
+                    <th>
+                      <div class="fw-bold">Specifiche</div>
+                    </th>
+
+                    <th>
+                      <div class="fw-bold">Esempio</div>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td data-label="Name">
+                      <div class="d-flex flex-row align-items-center">
+                        <div class="d-flex align-items-center fw-bold">
+                          Display 1 - Bold50
+                        </div>
+                      </div>
+                    </td>
+                    <td data-label="Specifiche">
+                      Weight: Bold <br />
+                      Font size: 64 px Line height: 76 px
+                    </td>
+                    <td data-label="Esempio">
+                      <div class="display-1 fw-bold">
+                        The quick brown fox ...
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td data-label="Name">
+                      <div class="d-flex flex-row align-items-center">
+                        <div class="d-flex align-items-center fw-bolder">
+                          Display 2 - Bold
+                        </div>
+                      </div>
+                    </td>
+                    <td data-label="Specifiche">
+                      Weight: Bold <br />
+                      Font size: 48 px Line height: 58 px
+                    </td>
+                    <td data-label="Esempio">
+                      <div class="display-2 fw-bold">
+                        The quick brown fox ...
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <!--2 tabella-->
+            <div class="badge badge-primary badge-lg">
+              <span> Heading </span>
+            </div>
+            <div class="list-table table-responsive table-sm table-even my-6">
+              <table>
+                <thead>
+                  <tr>
+                    <th>
+                      <div class="fw-bold">Token</div>
+                    </th>
+                    <th>
+                      <div class="fw-bold">Specifiche</div>
+                    </th>
+
+                    <th>
+                      <div class="fw-bold">Esempio</div>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td data-label="Token">
+                      <div class="d-flex flex-row align-items-center">
+                        <div class="d-flex align-items-center fw-bold">
+                          Heading 1 - Regular
+                        </div>
+                      </div>
+                    </td>
+                    <td data-label="Specifiche">
+                      Weight: Regular <br />
+                      Font size: 40 px <br />
+                      Line hxeight: 48 px <br />
+                    </td>
+                    <td data-label="Esempio">
+                      <div class="h1">The quick brown fox ...</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td data-label="Token">
+                      <div class="d-flex flex-row align-items-center">
+                        <div class="d-flex align-items-center fw-bolder">
+                          Heading 1 - Bold
+                        </div>
+                      </div>
+                    </td>
+                    <td data-label="Specifiche">
+                      Weight: Bold <br />
+                      Font size: 40 px <br />
+                      Line height: 48 px
+                    </td>
+                    <td data-label="Esempio">
+                      <div class="h1 fw-bold">The quick brown fox ...</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td data-label="Token">
+                      <div class="d-flex flex-row align-items-center">
+                        <div class="d-flex align-items-center fw-bolder">
+                          Heading 2 - Regular
+                        </div>
+                      </div>
+                    </td>
+                    <td data-label="Specifiche">
+                      Weight: Regular <br />
+                      Font size: 36 px <br />
+                      Line height: 44 px
+                    </td>
+                    <td data-label="Esempio">
+                      <div class="h2">The quick brown fox ...</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td data-label="Token">
+                      <div class="d-flex flex-row align-items-center">
+                        <div class="d-flex align-items-center fw-bolder">
+                          Heading 2 - Bold
+                        </div>
+                      </div>
+                    </td>
+                    <td data-label="Specifiche">
+                      Weight: Bold <br />
+                      Font size: 36 px <br />
+                      Line height: 44 px
+                    </td>
+                    <td data-label="Esempio">
+                      <div class="h2 fw-bold">The quick brown fox ...</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td data-label="Token">
+                      <div class="d-flex flex-row align-items-center">
+                        <div class="d-flex align-items-center fw-bolder">
+                          Heading 3 - Regular
+                        </div>
+                      </div>
+                    </td>
+                    <td data-label="Specifiche">
+                      Weight: Regular <br />
+                      Font size: 32 px <br />
+                      Line height: 38 px
+                    </td>
+                    <td data-label="Esempio">
+                      <div class="h3">The quick brown fox ...</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td data-label="Token">
+                      <div class="d-flex flex-row align-items-center">
+                        <div class="d-flex align-items-center fw-bolder">
+                          Heading 3 - Bold
+                        </div>
+                      </div>
+                    </td>
+                    <td data-label="Specifiche">
+                      Weight: Bold <br />
+                      Font size: 32 px <br />
+                      Line height: 38 px
+                    </td>
+                    <td data-label="Esempio">
+                      <div class="h3 fw-bold">The quick brown fox ...</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td data-label="Token">
+                      <div class="d-flex flex-row align-items-center">
+                        <div class="d-flex align-items-center fw-bolder">
+                          Heading 4 - Regular
+                        </div>
+                      </div>
+                    </td>
+                    <td data-label="Specifiche">
+                      Weight: Regular <br />
+                      Font size: 28 px <br />
+                      Line height: 34 px
+                    </td>
+                    <td data-label="Esempio">
+                      <div class="h4">The quick brown fox ...</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td data-label="Token">
+                      <div class="d-flex flex-row align-items-center">
+                        <div class="d-flex align-items-center fw-bolder">
+                          Heading 4 - Bold
+                        </div>
+                      </div>
+                    </td>
+                    <td data-label="Specifiche">
+                      Weight: Bold <br />
+                      Font size: 28 px <br />
+                      Line height: 34 px
+                    </td>
+                    <td data-label="Esempio">
+                      <div class="h4 fw-bold">The quick brown fox ...</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td data-label="Token">
+                      <div class="d-flex flex-row align-items-center">
+                        <div class="d-flex align-items-center fw-bolder">
+                          Heading 5 - Regular
+                        </div>
+                      </div>
+                    </td>
+                    <td data-label="Specifiche">
+                      Weight: Regular <br />
+                      Font size: 24px <br />
+                      Line height: 29 px
+                    </td>
+                    <td data-label="Esempio">
+                      <div class="h5">The quick brown fox ...</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td data-label="Token">
+                      <div class="d-flex flex-row align-items-center">
+                        <div class="d-flex align-items-center fw-bolder">
+                          Heading 5 - Semibold
+                        </div>
+                      </div>
+                    </td>
+                    <td data-label="Specifiche">
+                      Weight: Regular <br />
+                      Font size: 24px <br />
+                      Line height: 29 px
+                    </td>
+                    <td data-label="Esempio">
+                      <div class="h5 fw-semibold">
+                        The quick brown fox ...
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td data-label="Token">
+                      <div class="d-flex flex-row align-items-center">
+                        <div class="d-flex align-items-center fw-bolder">
+                          Heading 6 - Regular
+                        </div>
+                      </div>
+                    </td>
+                    <td data-label="Specifiche">
+                      Weight: Regular <br />
+                      Font size: 20px <br />
+                      Line height: 26 px
+                    </td>
+                    <td data-label="Esempio">
+                      <div class="h6">The quick brown fox ...</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td data-label="Token">
+                      <div class="d-flex flex-row align-items-center">
+                        <div class="d-flex align-items-center fw-bolder">
+                          Heading 6 - Semiblod
+                        </div>
+                      </div>
+                    </td>
+                    <td data-label="Specifiche">
+                      Weight: Semibold <br />
+                      Font size: 20 px <br />
+                      Line height: 26 px
+                    </td>
+                    <td data-label="Esempio">
+                      <div class="h6 fw-semibold">
+                        The quick brown fox ...
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!--3 tabella-->
+            <div class="badge badge-primary badge-lg">
+              <span> Body </span>
+            </div>
+            <div class="list-table table-responsive table-sm table-even my-6">
+              <table>
+                <thead>
+                  <tr>
+                    <th>
+                      <div>Token</div>
+                    </th>
+                    <th>
+                      <div class="fw-bold">Specifiche</div>
+                    </th>
+
+                    <th>
+                      <div class="fw-bold">Esempio</div>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td data-label="Token">
+                      <div class="d-flex flex-row align-items-center">
+                        <div class="d-flex align-items-center fw-bold">
+                          Large - Regular
+                        </div>
+                      </div>
+                    </td>
+                    <td data-label="Specifiche">
+                      Weight: Regular Font size: 18 px Line height: 24 px
+                    </td>
+                    <td data-label="Esempio">
+                      <div class="body-lg">
+                        The quick brown fox jumps over the lazy dog
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td data-label="Token">
+                      <div class="d-flex flex-row align-items-center">
+                        <div class="d-flex align-items-center fw-bolder">
+                          Medium - Regular
+                        </div>
+                      </div>
+                    </td>
+                    <td data-label="Specifiche">
+                      Weight: Regular Font size: 16 px Line height: 22 px
+                    </td>
+                    <td data-label="Esempio">
+                      <div class="">
+                        The quick brown fox jumps over the lazy dog
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td data-label="Token">
+                      <div class="d-flex flex-row align-items-center">
+                        <div class="d-flex align-items-center fw-bolder">
+                          Small - Regular
+                        </div>
+                      </div>
+                    </td>
+                    <td data-label="Specifiche">
+                      Weight: Regular Font size: 14 px Line height: 20 px
+                    </td>
+                    <td data-label="Esempio">
+                      <div class="body-sm">
+                        The quick brown fox jumps over the lazy dog
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <!--4 tabella-->
+            <div class="badge badge-primary badge-lg">
+              <span> Label </span>
+            </div>
+            <div class="list-table table-responsive table-sm table-even my-6">
+              <table>
+                <thead>
+                  <tr>
+                    <th>
+                      <div class="fw-bold">Token</div>
+                    </th>
+                    <th>
+                      <div class="fw-bold">Specifiche</div>
+                    </th>
+
+                    <th>
+                      <div class="fw-bold">Esempio</div>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td data-label="Token">
+                      <div class="d-flex flex-row align-items-center">
+                        <div class="d-flex align-items-center fw-bold">
+                          Large - Regular
+                        </div>
+                      </div>
+                    </td>
+                    <td data-label="Specifiche">
+                      Weight: Regular<br />
+                      Font size: 18 px<br />
+                      Line height: 24 px
+                    </td>
+                    <td data-label="Esempio">
+                      <div class="body-lg">
+                        The quick brown fox jumps over the lazy dog
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td data-label="Token">
+                      <div class="d-flex flex-row align-items-center">
+                        <div class="d-flex align-items-center fw-bolder">
+                          Large - Semibold
+                        </div>
+                      </div>
+                    </td>
+                    <td data-label="Specifiche">
+                      Weight: Semibold<br />
+                      Font size: 18px<br />
+                      Line height: 24 px
+                    </td>
+                    <td data-label="Esempio">
+                      <div class="body-lg fw-semibold">
+                        The quick brown fox jumps over the lazy dog
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td data-label="Token">
+                      <div class="d-flex flex-row align-items-center">
+                        <div class="d-flex align-items-center fw-bolder">
+                          Large - Bold
+                        </div>
+                      </div>
+                    </td>
+                    <td data-label="Specifiche">
+                      Weight: Bold <br />
+                      Font size: 18px <br />
+                      Line height: 24 px
+                    </td>
+                    <td data-label="Esempio">
+                      <div class="fw-bold body-lg">
+                        The quick brown fox jumps over the lazy dog
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td data-label="Token">
+                      <div class="d-flex flex-row align-items-center">
+                        <div class="d-flex align-items-center fw-bolder">
+                          Medium - Regular
+                        </div>
+                      </div>
+                    </td>
+                    <td data-label="Specifiche">
+                      Weight: Regular <br />
+                      Font size: 16 px <br />
+
+                      Line height: 20 px
+                    </td>
+                    <td data-label="Esempio">
+                      <div class="">
+                        The quick brown fox jumps over the lazy dog
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td data-label="Token">
+                      <div class="d-flex flex-row align-items-center">
+                        <div class="d-flex align-items-center fw-bolder">
+                          Medium - Semibold
+                        </div>
+                      </div>
+                    </td>
+                    <td data-label="Specifiche">
+                      Weight: Semibold <br />
+                      Font size: 16px <br />Line height: 20 px
+                    </td>
+                    <td data-label="Esempio">
+                      <div class="fw-semibold">
+                        The quick brown fox jumps over the lazy dog
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td data-label="Token">
+                      <div class="d-flex flex-row align-items-center">
+                        <div class="d-flex align-items-center fw-bolder">
+                          Small - Regular
+                        </div>
+                      </div>
+                    </td>
+                    <td data-label="Specifiche">
+                      Weight: Regular <br />
+                      Font size: 14 px<br />
+                      Line height: 20 px
+                    </td>
+                    <td data-label="Esempio">
+                      <div class="body-sm">
+                        The quick brown fox jumps over the lazy dog
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td data-label="Token">
+                      <div class="d-flex flex-row align-items-center">
+                        <div class="d-flex align-items-center fw-bolder">
+                          Small - Semibold
+                        </div>
+                      </div>
+                    </td>
+                    <td data-label="Specifiche">
+                      Weight: Semibold <br />
+                      Font size: 14px<br />
+                      Line height: 20 px
+                    </td>
+                    <td data-label="Esempio">
+                      <div class="body-sm fw-semibold">
+                        The quick brown fox jumps over the lazy dog
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!--5 tabella-->
+            <div class="badge badge-primary badge-lg">
+              <span> Link </span>
+            </div>
+            <div class="list-table table-responsive table-sm table-even my-6">
+              <table>
+                <thead>
+                  <tr>
+                    <th>
+                      <div class="fw-bold">Token</div>
+                    </th>
+                    <th>
+                      <div class="fw-bold">Specifiche</div>
+                    </th>
+
+                    <th>
+                      <div class="fw-bold">Esempio</div>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td data-label="Token">
+                      <div class="d-flex flex-row align-items-center">
+                        <div class="d-flex align-items-center fw-bold">
+                          Large - Regular
+                        </div>
+                      </div>
+                    </td>
+                    <td data-label="Specifiche">
+                      Weight: Regular <br />
+                      Type: Underline <br />
+                      Font size: 18px <br />Line height: 24 px
+                    </td>
+                    <td data-label="Esempio">
+                      <div class="body-lg">
+                        The quick brown fox jumps over the lazy dog
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td data-label="Token">
+                      <div class="d-flex flex-row align-items-center">
+                        <div class="d-flex align-items-center fw-bolder">
+                          Large - Semibold
+                        </div>
+                      </div>
+                    </td>
+                    <td data-label="Specifiche">
+                      Weight: Semibold <br />
+                      Type: Underline <br />
+                      Font size: 18px <br />
+                      Line height: 24 px
+                    </td>
+                    <td data-label="Esempio">
+                      <div class="body-lg fw-semibold">
+                        The quick brown fox jumps over the lazy dog
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td data-label="Token">
+                      <div class="d-flex flex-row align-items-center">
+                        <div class="d-flex align-items-center fw-bolder">
+                          Medium- Regular
+                        </div>
+                      </div>
+                    </td>
+                    <td data-label="Specifiche">
+                      Weight: Regular <br />
+                      Type: Underline<br />
+                      Font size: 16px <br />Line height: 20 px
+                    </td>
+                    <td data-label="Esempio">
+                      <div>The quick brown fox jumps over the lazy dog</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td data-label="Token">
+                      <div class="d-flex flex-row align-items-center">
+                        <div class="d-flex align-items-center fw-bolder">
+                          Medium - Semibold
+                        </div>
+                      </div>
+                    </td>
+                    <td data-label="Specifiche">
+                      Weight: Semibold<br />
+                      Type: Underline<br />
+                      Font size: 16px <br />Line height: 20 px
+                    </td>
+                    <td data-label="Esempio">
+                      <div class="fw-semibold">
+                        The quick brown fox jumps over the lazy dog
+                      </div>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td data-label="Token">
+                      <div class="d-flex flex-row align-items-center">
+                        <div class="d-flex align-items-center fw-bolder">
+                          Small - Regular
+                        </div>
+                      </div>
+                    </td>
+                    <td data-label="Specifiche">
+                      Weight: Regular <br />
+                      Font size: 14 px<br />
+                      Line height: 20 px
+                    </td>
+                    <td data-label="Esempio">
+                      <div class="body-sm">
+                        The quick brown fox jumps over the lazy dog
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td data-label="Token">
+                      <div class="d-flex flex-row align-items-center">
+                        <div class="d-flex align-items-center fw-bolder">
+                          Small - Semibold
+                        </div>
+                      </div>
+                    </td>
+                    <td data-label="Specifiche">
+                      Weight: Semibold <br />
+                      Type: Underline <br />Font size: 14px<br />
+                      Line height: 20 px
+                    </td>
+                    <td data-label="Esempio">
+                      <div class="body-lg fw-semibold">
+                        The quick brown fox jumps over the lazy dog
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!--6 tabella-->
+            <div class="badge badge-primary badge-lg">
+              <span> Caption </span>
+            </div>
+
+            <div class="list-table table-responsive table-sm table-even my-6">
+              <table>
+                <thead>
+                  <tr>
+                    <th>
+                      <div class="fw-bold">Token</div>
+                    </th>
+                    <th>
+                      <div class="fw-bold">Specifiche</div>
+                    </th>
+
+                    <th>
+                      <div class="fw-bold">Esempio</div>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td data-label="Token">
+                      <div class="d-flex flex-row align-items-center">
+                        <div class="d-flex align-items-center fw-bold">
+                          Regular
+                        </div>
+                      </div>
+                    </td>
+                    <td data-label="Specifiche">
+                      Weight: Regular <br />
+                      Font size: 12px <br />
+                      Line height: 16 px
+                    </td>
+                    <td data-label="Esempio">
+                      <div class="caption">
+                        The quick brown fox jumps over the lazy dog
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td data-label="Token">
+                      <div class="d-flex flex-row align-items-center">
+                        <div class="d-flex align-items-center fw-bolder">
+                          Semibold
+                        </div>
+                      </div>
+                    </td>
+                    <td data-label="Specifiche">
+                      Weight: Bold <br />
+                      Font size: 12px <br />
+                      Line height: 16 px
+                    </td>
+                    <td data-label="Esempio">
+                      <div class="caption fw-semibold">
+                        The quick brown fox jumps over the lazy dog
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <!-- 2 tab-->
+          <div class="tab-pane fade" id="roboto" role="tabpanel" tabindex="0" aria-labelledby="roboto">
+            <h5 class="mb-4 fw-bold">Roboto Mono</h5>
+            <div class="badge badge-primary badge-lg">
+              <span> Label </span>
+            </div>
+            <div class="list-table table-responsive table-sm table-even my-6">
+              <table id="table-roboto">
+                <thead>
+                  <tr>
+                    <th>
+                      <div class="fw-bold">Token</div>
+                    </th>
+                    <th>
+                      <div class="fw-bold">Specifiche</div>
+                    </th>
+
+                    <th>
+                      <div class="fw-bold">Esempio</div>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td data-label="Name">
+                      <div class="d-flex flex-row align-items-center">
+                        <div class="d-flex align-items-center fw-bold">
+                          Large - Regular
+                        </div>
+                      </div>
+                    </td>
+                    <td data-label="Specifiche">
+                      Weight: Regular <br />
+                      Font size: 18 px <br />
+                      Line height: 24 px
+                    </td>
+                    <td data-label="Esempio">
+                      <div class="body-lg">1234567890</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td data-label="Name">
+                      <div class="d-flex flex-row align-items-center">
+                        <div class="d-flex align-items-center fw-bolder">
+                          Large - Medium
+                        </div>
+                      </div>
+                    </td>
+                    <td data-label="Specifiche">
+                      Weight: Medium <br />
+                      Font size: 18px <br />
+                      Line height: 24 px
+                    </td>
+                    <td data-label="Esempio">
+                      <div class="body-lg fw-semibold">1234567890</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td data-label="Name">
+                      <div class="d-flex flex-row align-items-center">
+                        <div class="d-flex align-items-center fw-bolder">
+                          Medium - Regular
+                        </div>
+                      </div>
+                    </td>
+                    <td data-label="Specifiche">
+                      Weight: Regular <br />
+                      Font size: 16 px <br />
+                      Line height: 22 px
+                    </td>
+                    <td data-label="Esempio">
+                      <div>1234567890</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td data-label="Name">
+                      <div class="d-flex flex-row align-items-center">
+                        <div class="d-flex align-items-center fw-bolder">
+                          Medium - Medium
+                        </div>
+                      </div>
+                    </td>
+                    <td data-label="Specifiche">
+                      Weight: Medium <br />
+                      Font size: 16px <br />
+                      Line height: 22 px
+                    </td>
+                    <td data-label="Esempio">
+                      <div class="fw-semibold">1234567890</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td data-label="Name">
+                      <div class="d-flex flex-row align-items-center">
+                        <div class="d-flex align-items-center fw-bolder">
+                          Small - Regular
+                        </div>
+                      </div>
+                    </td>
+                    <td data-label="Specifiche">
+                      Weight: Regular <br />
+                      Font size: 14 px <br />
+                      Line height: 20 px
+                    </td>
+                    <td data-label="Esempio">
+                      <div class="body-sm">1234567890</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td data-label="Name">
+                      <div class="d-flex flex-row align-items-center">
+                        <div class="d-flex align-items-center fw-bolder">
+                          Small - Medium
+                        </div>
+                      </div>
+                    </td>
+                    <td data-label="Specifiche">
+                      Weight: Medium <br />
+                      Font size: 14px <br />
+                      Line height: 20 px
+                    </td>
+                    <td data-label="Esempio">
+                      <div class="body-sm fw-semibold">1234567890</div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- fine tab container-->
+
+        <!-- section do dont-->
+        <div class="my-8">
+          <h5 class="mb-4 fw-bold h5">Do and don’t</h5>
+          <p class="my-3">
+            Al fine di migliorare la leggibilità mantieni la lunghezza dei
+            paragrafi entro i 75 caratteri per riga.
+          </p>
+
+          <div class="d-flex flex-column flex-md-row row mb-8 gy-4">
+            <div class="col-12 col-md-6">
+              <div class="card shadow-none h-100 bg-gray">
+                <div class="card-body pb-0">
+                  <div class="card-bar">
+                    <div class="bar-group">
+                      <div class="badge badge-sm badge-success">
+                        <span> Do </span>
+                        <svg class="icon icon-sm icon-success ms-2">
+                          <use href="imgs/icon/sprite_fill.svg#it-check-circle"></use>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- -->
+                  <div class="bg-white p-4 rounded-top">
+                    <p>
+                      <strong> Lorem ipsum dolor</strong> sit amet,
+                      consectetur adipisicing elit. Maiores, dicta! Quam
+                      veritatis totam dolore, <strong>quisquam </strong> eum
+                      praesentium enim dolores veniam animi velit id unde
+                      expedita, nihil repellendus <strong>laborum </strong>.
+                      Labore, cum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="card shadow-none h-100 bg-gray">
+                <div class="card-body pb-0">
+                  <div class="card-bar">
+                    <div class="bar-group">
+                      <div class="badge badge-sm badge-danger">
+                        <span> Don't </span>
+                        <svg class="ms-2 icon icon-sm icon-danger">
+                          <use href="imgs/icon/sprite_fill.svg#it-error-circle"></use>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bg-white p-4 rounded-top">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing
+                      elit. Maiores, dicta! Quam veritatis totam dolore,
+                      quisquam eum praesentium enim dolores veniam animi velit
+                      id unde expedita, nihil repellendus laborum. Labore,
+                      cum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <p>
+              Utilizza diversi pesi di testo e diverse grandezze per creare
+              gerarchia visiva e ritmo sia nella scansione visiva della pagina
+              sia nell’atto di lettura.
+            </p>
+            <div class="d-flex flex-column flex-md-row row mb-8 gy-4">
+              <div class="col-12 col-md-6">
+                <div class="card shadow-none h-100 bg-gray">
+                  <div class="card-body">
+                    <div class="card-bar">
+                      <div class="bar-group">
+                        <div class="badge badge-sm badge-success">
+                          <span> Do </span>
+                          <svg class="icon icon-sm icon-success ms-2">
+                            <use href="imgs/icon/sprite_fill.svg#it-check-circle"></use>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- -->
+                    <div class="bg-white p-4 rounded-top h-100">
+                      <h6 class="fw-bold">Title</h6>
+                      <p>
+                        <strong> Lorem ipsum dolor</strong> sit amet,
+                        consectetur adipisicing elit. Maiores, dicta! Quam
+                        veritatis totam dolore, <strong>quisquam </strong> eum
+                        praesentium enim dolores veniam animi velit id unde
+                        expedita, nihil repellendus <strong>laborum </strong>.
+                        Labore, cum.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="card shadow-none h-100 bg-gray">
+                  <div class="card-body pb-0">
+                    <div class="card-bar">
+                      <div class="bar-group">
+                        <div class="badge badge-sm badge-danger">
+                          <span> Don't </span>
+                          <svg class="ms-2 icon icon-sm icon-danger">
+                            <use href="imgs/icon/sprite_fill.svg#it-error-circle"></use>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="bg-white p-4 rounded-top">
+                      <p>Title</p>
+                      <p class="roboto">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Maiores, dicta! Quam veritatis totam dolore,
+                        quisquam eum praesentium enim dolores veniam animi
+                        velit id unde expedita, nihil repellendus laborum.
+                        Labore, cum.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <p>
+              Non utilizzare la famiglia tipografica Roboto Mono per elementi
+              differenti dai numeri.
+            </p>
+            <div class="d-flex flex-column flex-md-row row mb-8 gy-4">
+              <div class="col-12 col-md-6">
+                <div class="card h-100 bg-gray shadow-none">
+                  <div class="card-body pb-0">
+                    <div class="card-bar">
+                      <div class="bar-group">
+                        <div class="badge badge-sm badge-success">
+                          <span> Do </span>
+                          <svg class="icon icon-sm icon-success ms-2">
+                            <use href="imgs/icon/sprite_fill.svg#it-check-circle"></use>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- -->
+                    <div class="bg-white p-4 rounded h-100">
+                      <h6 class="fw-bold">Title</h6>
+                      <p>
+                        <strong> Lorem ipsum dolor</strong> sit amet,
+                        consectetur adipisicing elit. Maiores, dicta! Quam
+                        veritatis totam dolore, <strong>quisquam </strong> eum
+                        praesentium enim dolores veniam animi velit id unde
+                        expedita, nihil repellendus <strong>laborum </strong>.
+                        Labore, cum.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="card bg-gray">
+                  <div class="card-body pb-0">
+                    <div class="card-bar">
+                      <div class="bar-group">
+                        <div class="badge badge-sm badge-danger">
+                          <span> Don't </span>
+                          <svg class="ms-2 icon icon-sm icon-danger">
+                            <use href="imgs/icon/sprite_fill.svg#it-error-circle"></use>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="bg-white p-4 rounded">
+                      <p class="roboto">Title</p>
+                      <p class="roboto">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Maiores, dicta! Quam veritatis totam dolore,
+                        quisquam eum praesentium enim dolores veniam animi
+                        velit id unde expedita, nihil repellendus laborum.
+                        Labore, cum.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <p>
+              Mantieni l’interlinea tra il 120% e il 160% del corpo del
+              carattere.
+            </p>
+            <div class="d-flex flex-column flex-md-row row mb-8 gy-4">
+              <div class="col-12 col-md-6">
+                <div class="card h-100 bg-gray shadow-none">
+                  <div class="card-body pb-0">
+                    <div class="card-bar">
+                      <div class="bar-group">
+                        <div class="badge badge-sm badge-success">
+                          <span> Do </span>
+                          <svg class="icon icon-sm icon-success ms-2">
+                            <use href="imgs/icon/sprite_fill.svg#it-check-circle"></use>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="bg-white p-4 rounded-top h-100">
+                      <h6 class="fw-bold">Title</h6>
+                      <p>
+                        <strong> Lorem ipsum dolor</strong> sit amet,
+                        consectetur adipisicing elit. Maiores, dicta! Quam
+                        veritatis totam dolore, <strong>quisquam </strong> eum
+                        praesentium enim dolores veniam animi velit id unde
+                        expedita, nihil repellendus <strong>laborum </strong>.
+                        Labore, cum.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="card h-100 bg-gray shadow-none">
+                  <div class="card-body pb-0">
+                    <div class="card-bar">
+                      <div class="bar-group">
+                        <div class="badge badge-sm badge-danger">
+                          <span> Don't </span>
+                          <svg class="ms-2 icon icon-sm icon-danger">
+                            <use href="imgs/icon/sprite_fill.svg#it-error-circle"></use>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="bg-white p-4 rounded-top h-100">
+                      <p class="interlinea">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Maiores, dicta! Quam veritatis totam dolore,
+                        quisquam eum praesentium enim dolores veniam animi
+                        velit id unde expedita, nihil repellendus laborum.
+                        Labore, cum.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <p>Non modificare la letter spacing.</p>
+            <div class="d-flex flex-column flex-md-row row mb-8 gy-4">
+              <div class="col-12 col-md-6">
+                <div class="card h-100 bg-gray shadow-none">
+                  <div class="card-body pb-0">
+                    <div class="card-bar">
+                      <div class="bar-group">
+                        <div class="badge badge-sm badge-success">
+                          <span> Do </span>
+                          <svg class="icon icon-sm icon-success ms-2">
+                            <use href="imgs/icon/sprite_fill.svg#it-check-circle"></use>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="bg-white p-4 rounded-top h-100">
+                      <h6 class="fw-bold">Title</h6>
+                      <p>
+                        <strong> Lorem ipsum dolor</strong> sit amet,
+                        consectetur adipisicing elit. Maiores, dicta! Quam
+                        veritatis totam dolore, <strong>quisquam </strong> eum
+                        praesentium enim dolores veniam animi velit id unde
+                        expedita, nihil repellendus <strong>laborum </strong>.
+                        Labore, cum.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="card h-100 bg-gray shadow-none">
+                  <div class="card-body pb-0">
+                    <div class="card-bar">
+                      <div class="bar-group">
+                        <div class="badge badge-sm badge-danger">
+                          <span> Don't </span>
+                          <svg class="ms-2 icon icon-sm icon-danger">
+                            <use href="imgs/icon/sprite_fill.svg#it-error-circle"></use>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="bg-white p-4 rounded-top h-100">
+                      <p class="letterspacing">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Maiores, dicta! Quam veritatis totam dolore,
+                        quisquam eum praesentium enim dolores veniam animi
+                        velit id unde expedita.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- esempio utilizzo-->
+        <div class="my-3">
+          <h5 class="mb-3 fw-bold">Esempio di utilizzo</h5>
+
+          <img class="w-100" src="imgs/typografy-page/esempioutilizzo.svg" alt="" />
+        </div>
+
+        <!-- paginazione-->
+
+        <div class="d-flex justify-content-between py-3 bg-lightblu my-8 rounded px-6">
+          <a href="icons.html" class="btn btn-bare btn-sm">
+            <svg class="icon">
+              <use href="imgs/icon/sprite.svg#it-chevron-left"></use>
+            </svg>
+            <span>Icons</span>
+          </a>
+          <a href="shadows.html" class="btn btn-bare btn-sm">
+            <span>Shadows</span>
+            <svg class="icon">
+              <use href="imgs/icon/sprite.svg#it-chevron-right"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- Cookie Banner 
+    <section class="cookie-banner" aria-label="Gestione dei cookies">
+        <div class="cookie-content">
+            <div class="cookie-header">
+                <div class="text-icon align-items-start">
+                    <svg class="icon icon-md">
+                        <use href="imgs/icon/sprite_fill.svg#cookie"></use>
+                    </svg>
+                    <span>
+                        <h4 class="h4">
+                            Cookie
+                        </h4>
+                        <div class="more">
+                            We use cookies to ensure the basic functionalities.
+                        </div>
+                    </span>
+                </div>
+                <button class="btn-close" aria-label="Chiudi">
+                    <svg class="icon icon-md icon-primary95">
+                        <use href="imgs/icon/sprite_fill.svg#it-close-circle"></use>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="cookie-body">
+                <div class="condense">
+                    We use cookies to ensure the basic functionalities of the website and to enhance your online
+                    experience.
+                    You can choose for each category to opt-in/out whenever you want.
+                    <a href="javascript:cookieReadMore();" class="text-u text-w6">Read more</a>.
+                </div>
+
+                <div class="more">
+                    <div>
+                        I use cookies to ensure the basic functionalities of the website and to enhance your online
+                        experience.
+                        You can choose for each category to opt-in/out whenever you want. For more details about cookies
+                        and how I use them, read the full <a href="#" class="text-u text-w6">cookie policy</a>.
+                    </div>
+
+                    <div class="group-inline pt-4">
+                        <div class="form-group field-wide">
+                            <div class="form-toggle right">
+                                <div class="toggle w-100 bg-primary05 rounded p-2">
+                                    <input type="checkbox" role="switch" id="toggle-1">
+                                    <label for="toggle-1">
+                                        <span>Strictly necessary cookies</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group-inline">
+                        <div class="form-group field-wide">
+                            <div class="form-toggle right">
+                                <div class="toggle w-100 bg-primary05 rounded p-2">
+                                    <input type="checkbox" role="switch" id="toggle-1">
+                                    <label for="toggle-1">
+                                        <span>Strictly analytics cookies</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group-inline">
+                        <div class="form-group field-wide">
+                            <div class="form-toggle right">
+                                <div class="toggle w-100 bg-primary05 rounded p-2">
+                                    <input type="checkbox" role="switch" id="toggle-1">
+                                    <label for="toggle-1">
+                                        <span>Marketing cookies</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="cookie-footer">
+                <div class="btn-group-left">
+                    <button class="btn btn-lg btn-outline-primary condense">
+                        Mostra dettagli
+                    </button>
+                    <button class="btn btn-lg btn-outline-primary more">
+                        Accetta tutti
+                    </button>
+                </div>
+                <div class="btn-group-right">
+                    <button class="btn btn-lg btn-danger">
+                        Rifiuta
+                    </button>
+                    <button class="btn btn-lg btn-primary condense">
+                        Accetta tutti
+                    </button>
+                    <button class="btn btn-lg btn-primary more">
+                        Accetta selezionati
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>-->
+  <footer id="footer">
+    <div class="footer-credits">
+      <div class="container">
+        <div class="navbar-brand pe-4">
+          <svg class="icon icon-lg" aria-hidden="true">
+            <use href="imgs/icon/ministero.svg#ministero"></use>
+          </svg>
+          <div class="body-lg text-w6 ps-3">
+            www.mit.gov.it - Ministero delle infrastrutture e dei trasporti.
+          </div>
+        </div>
+
+        <div class="text-icon">
+          <svg class="icon icon-xs" aria-hidden="true">
+            <use href="imgs/icon/sprite.svg#it-copyright"></use>
+          </svg>
+          <span> Tutti i diritti riservati </span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Pulsante per offcanvas in versione mobile fisso in fondo alla pagina -->
+  <div class="header-offcanvas bg-primary10 d-lg-none position-fixed bottom-0">
+    <div class="d-flex justify-content-between">
+      <div class="sidebarInfos">
+        <div id="sidebarTitle" class="h6">Titolo Sidebar</div>
+        <div id="sidebarActiveItem" class="mobile-selected">
+          Titolo Menu Voce Attiva
+        </div>
+      </div>
+      <button class="btn btn-sm" data-bs-toggle="offcanvas" data-bs-target="#sidebarOffcanvas"
+        aria-controls="sidebarOffcanvas">
+        <svg class="icon icon-sm" aria-hidden="true">
+          <use href="imgs/icon/sprite_fill.svg#it-maximize"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Contenuto offcanvas che incorpora la sidebar solo versione mobile -->
+  <div class="offcanvas offcanvas-bottom h-75 bg-transparent" tabindex="-1" id="sidebarOffcanvas"
+    aria-labelledby="sidebarOffcanvasLabel">
+    <div class="offcanvas-header header-offcanvas bg-primary10">
+      <div class="h6 offcanvas-title" id="sidebarOffcanvasLabel">
+        Titolo Sidebar
+      </div>
+      <button class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+        <svg class="icon icon-sm" aria-hidden="true">
+          <use href="imgs/icon/sprite_fill.svg#it-close-circle"></use>
+        </svg>
+      </button>
+    </div>
+    <div class="offcanvas-body card">
+      <!-- Copia qui il contenuto della sidebar -->
+      <div class="sidebar-scroll">
+        <!-- Il contenuto del menu va qui -->
+      </div>
+    </div>
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/menu-side-offcanvas.js"></script>
+</body>
+
+</html>
